@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3-alpine
 
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends \
